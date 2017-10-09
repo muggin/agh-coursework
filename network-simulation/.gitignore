@@ -1,0 +1,8 @@
+# OSX Files
+.DS_Store
+
+# Idea projects
+.idea/
+
+# Target files
+target/

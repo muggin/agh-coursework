@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Visca Client</title>
+</head>
+<h1>Visca Client</h1>
+<i>
+    // Example commandline input </br>
+    // dm l r l r w u d <- defines macro left right left right wait up down</br>
+    // m <- use macro</br>
+    // u d <- up down</br>
+</i>
+
+</br></br>
+<form action="http://localhost:8000/" id="viscaform" method="GET">
+    Enter Command:<br>
+    <input type="text" name="command">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+<ul id="commandlist"></ul>
+<script>
+    $("#viscaform").submit(function (e) {
+
+        var url = "http://localhost:8000/"; // the script where you handle the form input.
+
+        $.ajax({
+            type: "GET",
+            url: url,
+            data: $("#viscaform").serialize(), // serializes the form's elements.
+            success: function (data) {
+                $("ul#commandlist").prepend('<li>' + data + '</li>');
+                $("ul#commandlist li:first").fadeIn("slow");
+                $("#flash").hide();
+            }
+        });
+
+        e.preventDefault(); // avoid to execute the actual submit of the form.
+    });
+</script>
+
+</body>
+</html>

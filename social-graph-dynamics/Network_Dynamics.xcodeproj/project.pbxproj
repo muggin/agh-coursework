@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E05E7461A2D19ED00A43E40 /* SocialNetworkAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E05E7441A2D19ED00A43E40 /* SocialNetworkAlgorithm.cpp */; };
+		2E07867A1A2F941B009B4CB1 /* SocialNetworkStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E0786781A2F941B009B4CB1 /* SocialNetworkStatistics.cpp */; };
+		2E1DB0871A37ADCE00FF7FA9 /* TestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DB0851A37ADCE00FF7FA9 /* TestApp.cpp */; };
+		2E7435AE1A162319003AB178 /* Agent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435AC1A162319003AB178 /* Agent.cpp */; };
+		2E7435B11A162A46003AB178 /* AgentHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435AF1A162A46003AB178 /* AgentHandler.cpp */; };
+		2E7435B41A164363003AB178 /* Trait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435B21A164363003AB178 /* Trait.cpp */; };
+		2E7435B71A165809003AB178 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435B61A165809003AB178 /* main.cpp */; };
+		2E7435C61A167858003AB178 /* SexTrait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435C41A167858003AB178 /* SexTrait.cpp */; };
+		2E7435C91A167861003AB178 /* AgeTrait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435C71A167861003AB178 /* AgeTrait.cpp */; };
+		2E7435CC1A16786F003AB178 /* OccupationTrait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435CA1A16786F003AB178 /* OccupationTrait.cpp */; };
+		2E7435CF1A167883003AB178 /* MeritalStatusTrait.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7435CD1A167883003AB178 /* MeritalStatusTrait.cpp */; };
+		2E7D91D71A19183F007EB125 /* SocialNetworkGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E7D91D51A19183F007EB125 /* SocialNetworkGraph.cpp */; };
+		2E83682F1A3CEB7D00BEF17A /* NDMainFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E83682D1A3CEB7D00BEF17A /* NDMainFrame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E3E084B1A16218C001B5F8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E05E7441A2D19ED00A43E40 /* SocialNetworkAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocialNetworkAlgorithm.cpp; sourceTree = "<group>"; };
+		2E05E7451A2D19ED00A43E40 /* SocialNetworkAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialNetworkAlgorithm.h; sourceTree = "<group>"; };
+		2E0786781A2F941B009B4CB1 /* SocialNetworkStatistics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocialNetworkStatistics.cpp; sourceTree = "<group>"; };
+		2E0786791A2F941B009B4CB1 /* SocialNetworkStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialNetworkStatistics.h; sourceTree = "<group>"; };
+		2E07867B1A2FC44B009B4CB1 /* SocialNetworkHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialNetworkHeaders.h; sourceTree = "<group>"; };
+		2E1DB0851A37ADCE00FF7FA9 /* TestApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestApp.cpp; sourceTree = "<group>"; };
+		2E1DB0861A37ADCE00FF7FA9 /* TestApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApp.h; sourceTree = "<group>"; };
+		2E3E084D1A16218C001B5F8C /* Network_Dynamics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Network_Dynamics; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7435AC1A162319003AB178 /* Agent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Agent.cpp; sourceTree = "<group>"; };
+		2E7435AD1A162319003AB178 /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		2E7435AF1A162A46003AB178 /* AgentHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentHandler.cpp; sourceTree = "<group>"; };
+		2E7435B01A162A46003AB178 /* AgentHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentHandler.h; sourceTree = "<group>"; };
+		2E7435B21A164363003AB178 /* Trait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trait.cpp; sourceTree = "<group>"; };
+		2E7435B31A164363003AB178 /* Trait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trait.h; sourceTree = "<group>"; };
+		2E7435B61A165809003AB178 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2E7435C41A167858003AB178 /* SexTrait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SexTrait.cpp; sourceTree = "<group>"; };
+		2E7435C51A167858003AB178 /* SexTrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexTrait.h; sourceTree = "<group>"; };
+		2E7435C71A167861003AB178 /* AgeTrait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgeTrait.cpp; sourceTree = "<group>"; };
+		2E7435C81A167861003AB178 /* AgeTrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeTrait.h; sourceTree = "<group>"; };
+		2E7435CA1A16786F003AB178 /* OccupationTrait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OccupationTrait.cpp; sourceTree = "<group>"; };
+		2E7435CB1A16786F003AB178 /* OccupationTrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OccupationTrait.h; sourceTree = "<group>"; };
+		2E7435CD1A167883003AB178 /* MeritalStatusTrait.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeritalStatusTrait.cpp; sourceTree = "<group>"; };
+		2E7435CE1A167883003AB178 /* MeritalStatusTrait.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeritalStatusTrait.h; sourceTree = "<group>"; };
+		2E7D91D51A19183F007EB125 /* SocialNetworkGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SocialNetworkGraph.cpp; sourceTree = "<group>"; };
+		2E7D91D61A19183F007EB125 /* SocialNetworkGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialNetworkGraph.h; sourceTree = "<group>"; };
+		2E83682D1A3CEB7D00BEF17A /* NDMainFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NDMainFrame.cpp; sourceTree = "<group>"; };
+		2E83682E1A3CEB7D00BEF17A /* NDMainFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMainFrame.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E3E084A1A16218C001B5F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1DB0661A378E4F00FF7FA9 /* SocialNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				2E07867B1A2FC44B009B4CB1 /* SocialNetworkHeaders.h */,
+				2E7D91D51A19183F007EB125 /* SocialNetworkGraph.cpp */,
+				2E7D91D61A19183F007EB125 /* SocialNetworkGraph.h */,
+				2E05E7441A2D19ED00A43E40 /* SocialNetworkAlgorithm.cpp */,
+				2E05E7451A2D19ED00A43E40 /* SocialNetworkAlgorithm.h */,
+				2E0786781A2F941B009B4CB1 /* SocialNetworkStatistics.cpp */,
+				2E0786791A2F941B009B4CB1 /* SocialNetworkStatistics.h */,
+			);
+			name = SocialNetwork;
+			sourceTree = "<group>";
+		};
+		2E1DB0671A378E5F00FF7FA9 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				2E7435AC1A162319003AB178 /* Agent.cpp */,
+				2E7435AD1A162319003AB178 /* Agent.h */,
+				2E7435AF1A162A46003AB178 /* AgentHandler.cpp */,
+				2E7435B01A162A46003AB178 /* AgentHandler.h */,
+			);
+			name = Agent;
+			sourceTree = "<group>";
+		};
+		2E1DB0681A378E6700FF7FA9 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DB0851A37ADCE00FF7FA9 /* TestApp.cpp */,
+				2E1DB0861A37ADCE00FF7FA9 /* TestApp.h */,
+				2E83682D1A3CEB7D00BEF17A /* NDMainFrame.cpp */,
+				2E83682E1A3CEB7D00BEF17A /* NDMainFrame.h */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		2E3E08441A16218C001B5F8C = {
+			isa = PBXGroup;
+			children = (
+				2E3E084F1A16218C001B5F8C /* Network_Dynamics */,
+				2E3E084E1A16218C001B5F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E3E084E1A16218C001B5F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E3E084D1A16218C001B5F8C /* Network_Dynamics */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E3E084F1A16218C001B5F8C /* Network_Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				2E1DB0681A378E6700FF7FA9 /* GUI */,
+				2E7435B51A164F59003AB178 /* Traits */,
+				2E1DB0661A378E4F00FF7FA9 /* SocialNetwork */,
+				2E1DB0671A378E5F00FF7FA9 /* Agent */,
+				2E7435B61A165809003AB178 /* main.cpp */,
+			);
+			path = Network_Dynamics;
+			sourceTree = "<group>";
+		};
+		2E7435B51A164F59003AB178 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				2E7435B21A164363003AB178 /* Trait.cpp */,
+				2E7435B31A164363003AB178 /* Trait.h */,
+				2E7435C41A167858003AB178 /* SexTrait.cpp */,
+				2E7435C51A167858003AB178 /* SexTrait.h */,
+				2E7435C71A167861003AB178 /* AgeTrait.cpp */,
+				2E7435C81A167861003AB178 /* AgeTrait.h */,
+				2E7435CA1A16786F003AB178 /* OccupationTrait.cpp */,
+				2E7435CB1A16786F003AB178 /* OccupationTrait.h */,
+				2E7435CD1A167883003AB178 /* MeritalStatusTrait.cpp */,
+				2E7435CE1A167883003AB178 /* MeritalStatusTrait.h */,
+			);
+			name = Traits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E3E084C1A16218C001B5F8C /* Network_Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E3E08541A16218C001B5F8C /* Build configuration list for PBXNativeTarget "Network_Dynamics" */;
+			buildPhases = (
+				2E3E08491A16218C001B5F8C /* Sources */,
+				2E3E084A1A16218C001B5F8C /* Frameworks */,
+				2E3E084B1A16218C001B5F8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Network_Dynamics;
+			productName = Network_Dynamics;
+			productReference = 2E3E084D1A16218C001B5F8C /* Network_Dynamics */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E3E08451A16218C001B5F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Wojtek;
+				TargetAttributes = {
+					2E3E084C1A16218C001B5F8C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E3E08481A16218C001B5F8C /* Build configuration list for PBXProject "Network_Dynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E3E08441A16218C001B5F8C;
+			productRefGroup = 2E3E084E1A16218C001B5F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E3E084C1A16218C001B5F8C /* Network_Dynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E3E08491A16218C001B5F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7435C91A167861003AB178 /* AgeTrait.cpp in Sources */,
+				2E7435CC1A16786F003AB178 /* OccupationTrait.cpp in Sources */,
+				2E7435B41A164363003AB178 /* Trait.cpp in Sources */,
+				2E7D91D71A19183F007EB125 /* SocialNetworkGraph.cpp in Sources */,
+				2E07867A1A2F941B009B4CB1 /* SocialNetworkStatistics.cpp in Sources */,
+				2E7435B11A162A46003AB178 /* AgentHandler.cpp in Sources */,
+				2E7435C61A167858003AB178 /* SexTrait.cpp in Sources */,
+				2E83682F1A3CEB7D00BEF17A /* NDMainFrame.cpp in Sources */,
+				2E7435CF1A167883003AB178 /* MeritalStatusTrait.cpp in Sources */,
+				2E05E7461A2D19ED00A43E40 /* SocialNetworkAlgorithm.cpp in Sources */,
+				2E1DB0871A37ADCE00FF7FA9 /* TestApp.cpp in Sources */,
+				2E7435B71A165809003AB178 /* main.cpp in Sources */,
+				2E7435AE1A162319003AB178 /* Agent.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E3E08521A16218C001B5F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2E3E08531A16218C001B5F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2E3E08551A16218C001B5F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/local/Cellar/boost/1.56.0/include/;
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-I/usr/local/Cellar/wxmac/3.0.2/lib/wx/include/osx_cocoa-unicode-3.0",
+					"-I/usr/local/Cellar/wxmac/3.0.2/include/wx-3.0",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DwxDEBUG_LEVEL=0",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-D_WCHAR_H_CPLUSPLUS_98_CONFORMANCE",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/wxmac/3.0.2/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-framework",
+					QuickTime,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_webview-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E3E08561A16218C001B5F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-L/usr/local/Cellar/wxmac/3.0.2/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-framework",
+					QuickTime,
+					"-lwx_osx_cocoau_xrc-3.0",
+					"-lwx_osx_cocoau_webview-3.0",
+					"-lwx_osx_cocoau_html-3.0",
+					"-lwx_osx_cocoau_qa-3.0",
+					"-lwx_osx_cocoau_adv-3.0",
+					"-lwx_osx_cocoau_core-3.0",
+					"-lwx_baseu_xml-3.0",
+					"-lwx_baseu_net-3.0",
+					"-lwx_baseu-3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E3E08481A16218C001B5F8C /* Build configuration list for PBXProject "Network_Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E08521A16218C001B5F8C /* Debug */,
+				2E3E08531A16218C001B5F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E3E08541A16218C001B5F8C /* Build configuration list for PBXNativeTarget "Network_Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E3E08551A16218C001B5F8C /* Debug */,
+				2E3E08561A16218C001B5F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E3E08451A16218C001B5F8C /* Project object */;
+}

@@ -1,0 +1,12 @@
+# Intelli J files
+.idea
+uploaderl-1.0/Image_UploadERL.iml
+uploaderl-1.0/out*
+
+# OSX files
+.DS_Store
+
+# Beam files
+*.beam
+
+
