@@ -1,0 +1,19 @@
+# Ignore IntelliJ projects files
+MapReduce Framework.iml
+.idea/
+Text_Analysis.iml
+
+# Ignore OSX files
+.DS_Store
+ClassDiagram/.DS_Store
+
+# Ignore Eclipse project files
+.project
+*.class
+.classpath
+bin
+out
+
+# Map Reduce Temporary Files
+mapper/
+reducer/
