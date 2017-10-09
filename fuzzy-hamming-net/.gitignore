@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+code/.idea
+
+.DS_Store
+*.pyc

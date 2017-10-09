@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}Listing Details {% endblock %}
+{% block content %}
+{% load staticfiles %}
+
+<div class="container">
+<h1>Listing Details</h1>
+    {% include "accommodations/accommodation/accommodation_detail.html" with accommodation=listing.details %}
+    <table>
+        <tr>
+            <td>View Count</td>
+            <td>{{ listing.view_count }}</td>
+        </tr>
+        <tr>
+            <td>Publication Date</td>
+            <td>{{ listing.publication_date | date}}</td>
+        </tr>
+        <tr>
+            <td>Premium Offer</td>
+            <td>{{ listing.premium_offer }}</td>
+        </tr>
+        <tr>
+            <td>Expired</td>
+            <td>{{ listing.expired }}</td>
+        </tr>
+        <tr>
+            <td>Photos</td>
+            {% for photo in listing.details.photos.all %}
+            <td><img src="{% static photo.img.url %}"/></td>
+            {% endfor %}
+        </tr>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Accommodations{% endblock %}
+{% block content %}
+
+{% for header, show_button, listing_list in listing_extended_list %}
+<div class="jumbotron">
+    <div class="container">
+        <h2>{{ header | title }}</h2>
+        <hr/>
+        {% if listing_list %}
+        <table class="table">
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>View Count</td>
+                <td>Premium Offer</td>
+                <td>Publication Date</td>
+                <td>Expired</td>
+                <td colspan="3">Options</td>
+            </tr>
+
+            {% for listing in listing_list %}
+            <tr>
+                <td>{{listing.details.name}}</td>
+                <td>{{listing.details.price}}</td>
+                <td>{{listing.view_count}}</td>
+                <td>{{listing.premium_offer}}</td>
+                <td>{{listing.publication_date | date}}</td>
+                <td>{{listing.expired}}</td>
+                <td><a href="{% url 'accommodations:listing_detail' listing.id %}">Show More</a></td>
+                {% if not listing.expired %}
+                    <td><a href="{% url 'accommodations:listing_update' listing.id %}">Edit</a></td>
+                    <td><a href="{% url 'accommodations:listing_delete' listing.id %}">Delete</a></td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+            </table>
+            {% if show_button %}
+                <a href="{% url 'accommodations:listing_create' %}" class="btn btn-default">Add listing</a>
+            {% endif %}
+        {% else %}
+            <p>No listings in this section...</p>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Reservations{% endblock %}
+{% block content %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>Start</td>
+                <td>End</td>
+                <td>Listing</td>
+            </tr>
+
+            {% for reservation in reservation_list %}
+                <tr>
+                    <td>{{ reservation.reservation_start }}</td>
+                    <td>{{ reservation.reservation_end }}</td>
+                    <td>{{ reservation.listing.details.name }}</td>
+                    <td><a href="{% url 'accommodations:listing_detail' reservation.listing.id %}">Show More</a></td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+{% endblock %}
