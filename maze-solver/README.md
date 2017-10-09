@@ -3,4 +3,4 @@ Simple GUI application that reads a maze from a text file, finds the shortest pa
 
 The application was an assignment in the Object-Oriented Programming course I took at AGH-UST.
 
-
+<p align="center"> <img src="screen.png" width=480></p>
