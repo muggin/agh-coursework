@@ -12,3 +12,4 @@ Collection of coursework done at the AGH University of Science and Technology (2
 #### Simple Genetic Algorithm
 #### Social Graph Dynamics
 #### Tiny Lang - ANTLR 4
+#### Text Analysis
