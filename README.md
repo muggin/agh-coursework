@@ -1,11 +1,14 @@
 # agh-coursework
 Collection of coursework done at the AGH University of Science and Technology (2012-2016)
 
-#### crossword-app
-#### design-patterns
-#### image-uploaderl
-#### maze-solver
-#### network-simulation
-#### production-scheduling
-#### social-graph-dynamics
-#### tiny-lang-antlr
+#### Crossword App
+#### Design Patterns
+#### Fuzzy Hamming Net
+#### Image UploadERL
+#### Maze Solver
+#### Network Simulation
+#### Production Scheduling
+#### Room Broker
+#### Simple Genetic Algorithm
+#### Social Graph Dynamics
+#### Tiny Lang - ANTLR 4
