@@ -8,12 +8,13 @@ Technologies: Java_
 GUI application that generates random crosswords from a question database. Users can solve the crosswords and check the correctness of the solutions.
 
 ### Design Patterns
-_Course: Design Patterns_
+_Course: Design Patterns  
+Technologies: Java_
 
 Few simple implementations of Software Design Patterns.
 
 ### Fuzzy Hamming Net
-_Course: -
+_Course: -  
 Technologies: Python_
 
 Implementation of a basic Hamming Network.
@@ -25,7 +26,7 @@ Technologies: Erlang, OTP_
 Application utilizing the imgur.com API to concurrently upload images to the service.
 
 ### Maze Solver
-_Course: Object-Oriented Programming 
+_Course: Object-Oriented Programming   
 Technologies: Java_
 
 GUI application for finding the shortest path through a maze. After the maze was read from a text file, the shortest path was computed and visualized.
@@ -49,7 +50,7 @@ Technologies: Python, Django_
 Hotel booking system, allowing basic CRUD functionality.
 
 ### Simple Genetic Algorithm
-_Course: Introduction to Genetic Programming
+_Course: Introduction to Genetic Programming  
 Technologies: Python_
 
 Basic implementation of a Genetic Algorithm with binary chromosomes.
@@ -61,7 +62,7 @@ Technologies: C++, Boost_
 Application simulating the dynamics of a social network (graph). The evolution of the networks characteristics were analyzed over time.
 
 ### Text Analysis
-_Course: Design Patterns
+_Course: Design Patterns  
 Technologies: Java_
 
 Implementation of a master-worker data processing framework, inspired by Map Reduce. The goal of the project to implement a large OOP application using Software Design Patterns. 
