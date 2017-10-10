@@ -7,7 +7,7 @@ Technologies: Java_
 
 GUI application that generates random crosswords from a question database. Users can solve the crosswords and check the correctness of the solutions.
 
-#### Design Patterns
+### Design Patterns
 _Course: Design Patterns_
 
 Few simple implementations of Software Design Patterns.
