@@ -41,7 +41,7 @@ Application simulating the behavior of a Computer Network. Basic routing of pack
 _Course: Operational Research  
 Technologies: C++, Qt_
 
-GUI application for solving the scheduling problem at factories. Genetic algorithms were used to find a task schedule that would yield optimal machine utilization and meet hard constraints.
+GUI application for solving the job shop problem. Genetic algorithms were used to find a task schedule that would yield optimal machine utilization and meet hard constraints.
 
 ### Room Broker
 _Course: Web Service Design  
