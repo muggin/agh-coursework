@@ -37,6 +37,12 @@ Technologies: Scala, Akka_
 
 Application simulating the behavior of a Computer Network. Basic routing of packets and connectivity between Network Interfaces was implemented using Akka actors.
 
+### Operating Systems
+_Course: Operating Systems   
+Technologies: C_
+
+Assignments for the Operating Systems course written in C.
+
 ### Production Scheduling
 _Course: Operational Research  
 Technologies: C++, Qt_
